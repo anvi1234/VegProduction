@@ -1,0 +1,365 @@
+
+
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    box-shadow: 0px 1px 10px white;
+  }
+
+  
+  hr{
+    position: relative;
+    bottom:15px;
+    box-shadow: 0px 1px 10px white;
+    background-color: #2d2d30;
+    opacity:0.7;
+    box-shadow: 0px 1px 10px white
+  }
+  
+  .navbar .navbar-brand{
+    color:white;
+    display: inherit;
+    right:230px;
+    position: relative;
+  }
+ 
+  .navbar .contact{
+    color:white;
+    display: inherit;
+    left:200px;
+    position: relative;
+  }
+    .about{
+    color:white;
+    display: inherit;
+    left:800px;
+    position: relative;
+    top:-1910px;
+   }
+   #dropdownBasic1{
+     color:white;
+   }
+  .dropdown-content{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+   background-color: white;
+  
+    top:-50px;
+  
+  }
+  
+  
+   
+
+  .heading{
+    position: relative;
+    top:80px;
+    font-size:30px;
+    margin-left:560px;
+  }
+  .heading2{
+    position: relative;
+    top:-400px;
+    font-size:30px;
+    margin-left:500px;
+    
+  }
+  .hr1{
+    position: relative;
+    top:60px;
+    right:40px;
+  }
+  .hr2{
+    position: relative;
+    top:110px;
+    right:40px;
+
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .transparent{
+    
+    width: 100%;
+   z-index:1;
+   position: relative;
+   opacity: 0.85;
+   bottom:129px;
+   
+   
+  }
+  .navbar .mobile{
+    color:white;
+    display: inherit;
+    left:190px;
+    position: relative;
+    font-size:15px;
+  }
+  .contact-text{
+    position: relative;
+   top:300px;
+    color:white;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    font-size: 90px;
+  }
+  
+  .container{
+    background-color: black;
+    position: relative;
+    top:200px;
+    opacity:0.8;
+  }
+  .text-center {
+    color:white;
+  }
+  .text{
+    color:white;
+  }
+  span{
+    color:white;
+  }
+  .location
+  {
+    color:white;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 270px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  @media screen,(width:600px){
+    .header{
+      font-size: 30px;
+      position: relative;
+      top:130px;
+    
+      margin-left:550px;
+    }
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .heading{
+      position: relative;
+      top:80px;
+      font-size:30px;
+      margin-left:560px;
+    }
+      .p1{
+        position: relative;
+        left:380px;
+        top:90px;
+        font-size: 20px;
+        font-variant: small-caps;
+      }
+
+      .p4{
+        position: relative;
+        left:380px;
+        top:-400px;
+        font-size: 20px;
+        font-variant: small-caps;
+      }
+      
+    }
+   .portfolioimg{
+     position: relative;
+     top:150px;
+     left:200px;
+     background-color: lightgr
+   }
+   .h5{
+     position: relative;
+     left:180px;
+   }
+   .contact-head{
+     position: relative;
+     left:300px;
+     color:black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .contact-loc{
+     position: relative;
+     left:300px;
+     font-size:15px;
+   }
+.fas{
+  position: relative;
+  left:250px;
+  top:30px;
+}
+.fa{
+  position: relative;
+  left:250px;
+  top:30px;
+}
+.postaddress{
+  position: relative;
+  left:380px;
+  top:-40px;
+  
+  font-size: 30px;
+}
+.postaddress2{
+  position: relative;
+  left:380px;
+ bottom:90px;
+  
+  font-size: 15px;
+}
+.company{
+  position: relative;
+  top:80px;
+}
+.contact2{
+  position: relative;
+  left:680px;
+  top:-89px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+}
+.contact3{
+  position: relative;
+  left:680px;
+  top:-170px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.certified{
+  position: relative;
+  left:980px;
+  top:-140px;
+  
+  font-size: 30px;
+
+}
+.logo{
+  position: relative;
+  left:890px;
+  top:-280px;
+
+}
+p.solid {border-style: ridge;
+background-color: gray;}
+.map{
+  position: relative;
+ left:290px;
+  top:100px;
+}
+.footer{
+  position: relative;
+  top:200px;
+}
+
+#aaa{
+  position: relative;
+  z-index: 1;
+  height:300px;
+  width:300px;
+  background-color: #000;
+  opacity: 0.8;
+}
+.link{
+  position: relative;
+  color:white;
+  padding:12px;
+}
+
+#transparent{
+ 
+    background-color: black;
+    opacity: 0.6;
+    background-size:1600px 550px;
+   height:500px;
+   position:relative;
+ bottom:520px;
+
+
+}
+.hr3{
+  position: relative;
+  bottom:535px;
+}
+.animal-header2{
+ position: relative;
+  text-align: center;
+  color:white;
+  top:160px;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px white;
+  font-family: myFirstFont;
+}
+.hr4{
+  position: relative;
+  top:-410px;
+  right:10px;
+}
+.heading3{
+  position: relative;
+    top:-200px;
+    font-size:20px;
+    margin-left:200px;
+}
+.gallery{
+  background-color:#DCDCDC;
+  height:680px;
+  width:75%;
+  top:-100px;
+  position: relative;
+  left:180px;
+ 
+}
+.img1{
+  border-radius: 50%;
+  padding-top:20px;
+  padding-left:80px;
+}
+.img2{
+  position: relative;
+  left:380px;
+  padding-top:20px;
+  bottom: 665px;
+
+}
+.img3{
+  position: relative;
+  left:680px;
+  padding-top:20px;
+  bottom: 1330px;
+
+}
+.btn2{
+  position: relative;
+  top:10px;
+  background-color: white;
+  color:black;
+}
+.form-control{
+  width:300px;
+  padding-left: 20px;
+}
