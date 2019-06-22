@@ -11,14 +11,14 @@ import {Router} from "@angular/router";
   providers:[AppService],
 })
 export class AppComponent implements OnInit {
- contact:Contact;
- contacts:Contact[]=[];
+  contact:Contact;
+  contacts:Contact[]=[];
   title = 'project';
      
 
-name:String;
-email:String;
-mobile:Number;
+  name:String;
+  email:String;
+  mobile:Number;
   image1="assets/image/image1.jpeg";
   image2="assets/image/image2.jpeg";
   image3="assets/image/image3.jpeg";
@@ -40,16 +40,19 @@ mobile:Number;
     
   }
 
-        addContact(){
-          const newContact={
-            name:this.name,
-            email:this.email,
-            mobile:this.mobile
-          }
-          this.contactservice.addContact(newContact).subscribe(contact => {
-            this.contacts.push(contact);
-          });
-        }
+  addContact(){
+    console.log(this.name);
+    console.log(this.email);
+    console.log(this.mobile);
+    this.contactservice.addContact(this.name, this.email, this.mobile).subscribe((r:any)=>{
+      console.log(r);
+      if(r._body=='Inserted'){
+        window.location.reload();
+      }
+    })
+  }
+
+
 
 
   ngOnInit(){

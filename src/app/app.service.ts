@@ -17,9 +17,14 @@ Url="http://localhost:8900/api/contacts";
     
   }
     //retrieving contact service
-    addContact(newContact){
-      var headers=new Headers();
-      headers.append('Content-Type','appliction-json');
-      return this.http.post(this.Url,newContact,{headers:headers}).pipe(map(res=>res.json()));
+    addContact(name, email, mobile){
+      let tosend = new FormData()
+      tosend.append('name', name)
+      tosend.append('email', email)
+      tosend.append('mobile', mobile)
+      tosend.append('submit', 'true')
+      return this.http.post('http://www.pranveg.com/User.php', tosend);
     }
+
+
 }
